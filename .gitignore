@@ -1,0 +1,26 @@
+# Hidden folders and system files
+.*
+
+# Exception: Keep .gitignore itself
+!.gitignore
+
+# Exception: Keep .github folder if it exists (for CI/CD workflows)
+!.github/
+
+# WoW Addon specific
+*.bak
+*.tmp
+
+# OS specific
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE specific
+*.swp
+*.swo
+*~
+
+# Packager output
+.release/
+release/

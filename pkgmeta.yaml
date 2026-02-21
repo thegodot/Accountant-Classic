@@ -1,0 +1,6 @@
+# Dot folders like .vscode, .kiro, .qoder are auto-ignored by the packager.
+# Explicitly ignore non-dot dev files:
+package-as: Accountant_Classic
+ignore:
+  - CLAUDE.md
+  - Docs
